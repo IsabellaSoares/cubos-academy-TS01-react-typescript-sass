@@ -1,6 +1,3 @@
-import { Header } from "../../components/Header";
-import styles from "./styles.module.scss";
+const Main = () => <h2>Main</h2>;
 
-const App = () => <Header />;
-
-export default App;
+export default Main;
