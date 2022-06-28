@@ -1,13 +1,6 @@
-import './styles.module.scss';
+import { Header } from "../../components/Header";
+import styles from "./styles.module.scss";
 
-function Main() {
-  return (
-    <div className="App">
-      <header className="App-header">
-      Hello world!
-      </header>
-    </div>
-  );
-}
+const App = () => <Header />;
 
-export default Main;
+export default App;
