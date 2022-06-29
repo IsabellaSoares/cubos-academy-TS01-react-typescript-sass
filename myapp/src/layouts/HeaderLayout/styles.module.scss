@@ -1,5 +1,8 @@
+@import '../../styles/colors';
+
 .contentPage {
     min-height: calc(100vh - 64px);
+    width: 100vw;
     padding: 48px 86px;
     background-color: #F0F0F0;
 
@@ -11,7 +14,7 @@
 
     letter-spacing: 0.25px;
 
-    color: rgba(0, 0, 0, 0.87);
+    color: $text-color;
 
     h1 {
         display: flex;

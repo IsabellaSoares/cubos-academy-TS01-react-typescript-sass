@@ -1,0 +1,18 @@
+@import '../../styles/colors';
+
+.container {
+    height: 42px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 123.5%;
+    letter-spacing: 0.25px;
+    color: $text-color;
+}
