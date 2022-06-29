@@ -2,7 +2,6 @@
 
 .contentPage {
     min-height: calc(100vh - 64px);
-    width: 100vw;
     padding: 48px 86px;
     background-color: #F0F0F0;
 
@@ -15,13 +14,13 @@
     letter-spacing: 0.25px;
 
     color: $text-color;
+}
 
-    h1 {
-        display: flex;
-        align-items: center;
-        height: 56px;
-        font-size: 48px;
-        font-weight: 400;
-        margin-bottom: 61.83px;
-    }
+.title {
+    display: flex;
+    align-items: center;
+    height: 56px;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 61.83px;
 }

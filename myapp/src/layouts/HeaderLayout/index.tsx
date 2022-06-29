@@ -7,7 +7,7 @@ const HeaderLayout = () => (
   <>
     <Header />
     <div className={styles.contentPage}>
-      <h1>Nome da Loja</h1>
+      <h1 className={styles.title}>Nome da Loja</h1>
       <Outlet /> 
     </div>
   </>
