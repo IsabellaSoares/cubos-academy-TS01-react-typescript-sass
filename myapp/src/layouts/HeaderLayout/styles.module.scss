@@ -1,26 +1,32 @@
 @import '../../styles/colors';
 
-.contentPage {
-    min-height: calc(100vh - 64px);
-    padding: 48px 86px;
-    background-color: #F0F0F0;
+.container {
+    background-color: #E5E5E5;
+    min-height: 100vh;
+    width: 100vw;
 
-    // Fonts
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    line-height: 123.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 
-    letter-spacing: 0.25px;
-
-    color: $text-color;
+    position: relative;
 }
 
-.title {
+.contentPage {
+    min-height: calc(100vh - 64px);
+    width: 100vw;
+    padding: 48px 86px;
+
     display: flex;
-    align-items: center;
-    height: 56px;
-    font-size: 48px;
-    font-weight: 400;
-    margin-bottom: 61.83px;
+    flex-direction: column;
+
+    h1 {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 116.7%;
+        color: $text-color;
+    }
 }
