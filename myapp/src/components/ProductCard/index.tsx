@@ -3,7 +3,7 @@ import ProductType from "../../types/ProductType";
 import RemoveIcon from "../../assets/remove.svg";
 import { useState } from "react";
 import useGlobalContext from "../../hooks/useGlobalContext";
-// import { formatToMoney } from "../../helpers/formatter";
+import { formatToMoney } from "../../helpers/formatter";
 
 type Props = {
   product: ProductType;
@@ -35,7 +35,7 @@ const ProductCard = ({ product }: Props) => {
         <p>{product.description}</p>
         <div className={styles.contentPriceQty}>
           <span>{product.stock} Unidades</span>
-          {/* <strong>{formatToMoney(product.value)}</strong> */}
+          <strong>{formatToMoney(product.value)}</strong>
         </div>
       </div>
     </div>
