@@ -6,12 +6,10 @@ import ProductType from "../types/ProductType";
 const useGlobalContextProvider = () => {
   const [openModal, setOpenModal] = useState(false);
   const [currentIdProduct, setCurrentIdProduct] = useState(0);
-  //   const [allProducts, setAllProducts] = useLocalStorage<ProductType[]>(
-  //     "products",
-  //     [...products]
-  //   );
-
-  const [allProducts, setAllProducts] = useState<ProductType[]>(products);
+    const [allProducts, setAllProducts] = useLocalStorage<ProductType[]>(
+      "products",
+      [...products]
+    );
 
   const handleConfirmModal = () => {
     const localProducts = [...allProducts];
