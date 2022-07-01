@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
 import MainRoutes from "./routes";
 
 import "./styles/index.scss";
@@ -12,6 +13,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <MainRoutes />
+      <ToastContainer />
     </BrowserRouter>
   </React.StrictMode>
 );
