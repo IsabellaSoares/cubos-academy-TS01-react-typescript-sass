@@ -12,7 +12,7 @@ const HeaderLayout = () => {
     <div className={styles.container}>
       <Header />
       <main className={styles.contentPage}>
-        <h1>Loja do Dani</h1>
+        <h1 className={styles.title}>Loja do Dani</h1>
         <Outlet />
       </main>
 
