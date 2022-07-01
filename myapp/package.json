@@ -44,6 +44,7 @@
   },
   "devDependencies": {
     "@types/react-router-dom": "^5.3.3",
-    "@types/sass": "^1.43.1"
+    "@types/sass": "^1.43.1",
+    "usehooks-ts": "^2.6.0"
   }
 }
